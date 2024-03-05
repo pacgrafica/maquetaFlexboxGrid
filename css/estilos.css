@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid honeydew;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+/*COLORES*/
+
+.verdeoscuro {
+    background-color: #10454F;
+}
+
+.verdemedio {
+    background-color: #506266;
+}
+
+.gris   {
+    background-color: #818274;
+}
+
+.verdeclaro {
+    background-color: #A3AB78;
+}
+
+.verdelimon {
+    background-color: #BDE038;
+}
+
+/*alturas*/
+
+.fila1 {
+    height: 3rem;
+}
+
+.fila2 {
+    height: 30rem;
+}
+
+.fila3 {
+    height: 15rem;
+}
+
+.fila4 {
+    height: 10rem;
+}
+
+.fila5 {
+    height: 15rem;
+}
+
+.fila6 {
+    height: 15rem;
+}
+
+.fila7 {
+    height: 5rem;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .ocultarmovil{
+        display: none;
+    }
+  }
